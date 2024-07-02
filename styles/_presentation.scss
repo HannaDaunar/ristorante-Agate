@@ -1,0 +1,43 @@
+.presentation {
+    padding: 218px 0 185px;
+    &__title {
+        font-size: 5.3125rem;
+        line-height: 122%;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        max-width: 914px;
+        margin: 0 auto;
+    }
+    &__text {
+        font-size: $medium-font;
+        margin: 35px 0 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .presentation {
+        padding: 183px 0 153px;
+        &__title {
+            font-size: 3.75rem;
+            max-width: 697px;
+        }
+        &__text {
+            font-size: 1.125rem;
+            margin: 35px 0 63px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .presentation {
+        padding: 171px 0 99px;
+        &__title {
+            font-size: 3.125rem;
+            line-height: 115%;
+            max-width: 329px;
+        }
+        &__text {
+            margin: 35px 0 66px;
+        }
+    }
+}

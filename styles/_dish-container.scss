@@ -1,0 +1,17 @@
+.dish-container {
+    @include flex-container;
+    max-width: 1176px;
+    margin: 0 auto 60px;
+}
+
+@media screen and (max-width: 1024px) {
+    .dish-container {
+        margin: 0 auto 45px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .dish-container {
+        flex-direction: column;
+    }
+}

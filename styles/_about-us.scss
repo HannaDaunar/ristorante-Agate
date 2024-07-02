@@ -1,0 +1,31 @@
+.about-us {
+    background-color: $background-color;
+    padding: $section-padding;
+    &__content {
+        font-weight: 300;
+        font-size: 1.875rem;
+        line-height: 136%;
+        max-width: 941px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about-us {
+        padding: 80px 0;
+        &__content {
+            font-size: $small-font;
+            max-width: 602px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-us {
+        padding: 70px 0;
+        &__content {
+            font-size: 1.25rem;
+            max-width: 541px;
+        }
+    }
+}

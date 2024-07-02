@@ -1,0 +1,15 @@
+    .upward {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 10;
+        & i {
+            font-size: 4.375rem;
+            color: #FFAC1C;
+            transition: all .5s;
+            &:hover {
+                color: rgba(20, 53, 50, 1);
+                transform: scale(1.3);
+            }
+        }
+    }
